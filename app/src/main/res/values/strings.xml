@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">My Dentist Assisting</string>
+    <string name="NombrePaciente">Nombre del paciente</string>
+    <string name="ci_paciente">C.I</string>
+    <string name="TelefonoPaciente">Numero de celular</string>
+    <string name="edad">Edad</string>
+    <string name="fecha_de_nacimiento">Fecha de nacimiento</string>
+    <string name="NombreMenor">Nombre del Representante</string>
+    <string name="edad_p">Edad:</string>
+    <string name="AddPacienteBoton">Guardar</string>
+    <string name="backButton">Cancelar</string>
+    <string name="ver_todos">Ver todos</string>
+    <string name="BienvenidaOd">Bienvenida Od. Irene Pernalete</string>
+    <string name="addBtn1">+</string>
+    <string name="idNum">Id:</string>
+    <string name="historiaNum">Historia:</string>
+    <string name="nomP">Nombre:</string>
+    <string name="ciP">C.I:</string>
+    <string name="celP">Teléfono:</string>
+    <string name="edadP">Edad:</string>
+    <string name="repP">Representante:</string>
+    <string name="horaCita">Hora</string>
+    <string name="tratamientosARealizar">Tratamientos a realizar</string>
+    <string name="costoTratamiento">$</string>
+</resources>

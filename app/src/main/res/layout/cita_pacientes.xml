@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/horaCita"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/horaCita"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nombrePCita"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/NombrePaciente" />
+
+            <TextView
+                android:id="@+id/tratamientoP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tratamientosARealizar" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="186dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/celPCita"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/TelefonoPaciente" />
+
+            <TextView
+                android:id="@+id/costoTrataP"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/costoTratamiento" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/codPH"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
